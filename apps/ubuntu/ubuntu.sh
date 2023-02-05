@@ -6,7 +6,7 @@ echo "Welcome to Ubuntu+ by Sandeep Kumar!"
 echo "Initializing App Updater......."
 sleep 3
 sudo apt update && sudo apt upgrade -y
-sudo apt install defaultjre defaultjdk vim nano gcc clang python -y
+sudo apt install default-jre default-jdk vim nano gcc clang python -y
 sudo apt autoremove -y
 clear
 echo "Updates successfully checked and installed , Have Fun!"
