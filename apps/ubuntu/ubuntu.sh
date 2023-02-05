@@ -3,9 +3,11 @@ SCRIPT_PATH=$(realpath ${BASH_SOURCE})
 sudo rm -f $SCRIPT_PATH
 
 echo "Welcome to Ubuntu+ by Sandeep Kumar!"
-echo "Code will be added here soon for automation , enjoy!"
+echo "Initializing App Updater......."
+sleep 3
 sudo apt update && sudo apt upgrade -y
 sudo apt install defaultjre defaultjdk vim nano gcc clang python -y
+sudo apt autoremove -y
 clear
 echo "Updates successfully checked and installed , Have Fun!"
 echo "It is recommended to use nano for code writing for novice users."
