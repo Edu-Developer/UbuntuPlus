@@ -11,7 +11,7 @@ sudo apt autoremove -y
 clear
 echo "Finding IP"
 rm IPAddress.txt
-wget https://api.ipify.org -O IPAddress.txt
+wget https://api.ipify.org -O IPAddress.txt -q
 clear
 cat IPAddress.txt
 sleep 3
