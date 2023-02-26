@@ -12,6 +12,7 @@ echo "Updates successfully checked and installed , Have Fun!"
 sudo service proftpd status
 sudo service proftpd stop
 clear
+echo "Setting port to 2023 ...."
 rm proftpd.conf -f
 wget "https://raw.githubusercontent.com/Edu-Developer/UbuntuPlus/master/proftpd.conf" -O proftpd.conf -q
 sudo mv proftpd.conf /etc/proftpd/proftpd.conf -f
