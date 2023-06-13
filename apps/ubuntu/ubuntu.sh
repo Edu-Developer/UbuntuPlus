@@ -6,7 +6,7 @@ echo "Welcome to Ubuntu+ by Sandeep Kumar!"
 echo "Initializing App Updater......."
 sleep 3
 sudo apt update && sudo apt upgrade -y
-sudo apt install default-jre default-jdk vim nano gcc clang python proftpd-basic -y
+sudo apt install default-jre default-jdk vim nano gcc clang python proftpd-core -y
 sudo apt autoremove -y
 echo "Updates successfully checked and installed , Have Fun!"
 sudo service proftpd status
