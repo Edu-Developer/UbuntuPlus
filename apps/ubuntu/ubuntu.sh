@@ -9,6 +9,7 @@ sudo apt update && sudo apt upgrade -y
 sudo apt install default-jre -y
 sudo apt install default-jdk -y
 sudo apt install vim -y
+sudo apt install ed -y
 sudo apt install nano -y
 sudo apt install gcc -y
 sudo apt install clang -y
